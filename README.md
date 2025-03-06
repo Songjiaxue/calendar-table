@@ -2,7 +2,7 @@
 
 生成每月计划表，之前的日期待做事项会自动添加删除线。
 
-![Calendar Table](/calendar.png 'Calendar Table')
+![Calendar Table](https://raw.githubusercontent.com/Songjiaxue/images-collect/refs/heads/main/calendar-table.png 'Calendar Table')
 
 #### 使用方法
 
