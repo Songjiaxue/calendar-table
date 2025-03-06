@@ -1,0 +1,63 @@
+{
+  "name": "calendar-table",
+  "version": "1.0.2",
+  "description": "calendar, 每月计划表， 每月待做事项",
+  "main": "dist/index.bundle.js",
+  "module": "dist/index.bundle.js",
+  "files": [
+    "dist",
+    "README.md",
+    "calendar.png"
+  ],
+  "homepage": "",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "lib": "webpack --config webpack.lib.js && npm link",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calendat",
+    "每月计划表，每月待做事项"
+  ],
+  "author": "song.jiaxue",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.7",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "autoprefixer": "^10.4.20",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "cssnano": "^7.0.6",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "html-webpack-plugin": "^5.6.3",
+    "less": "^4.2.2",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.4",
+    "prettier": "^3.5.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.0.9",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "peerDependencies": {
+    "dayjs": "^1.11.13",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9"
+  }
+}
